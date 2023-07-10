@@ -1,3 +1,3 @@
-frontend/node_modules
-frontend/.gitignore
-frontend/src/assets
+backend/node_modules
+.gitignore
+backend/.env
