@@ -1,0 +1,85 @@
+.container {
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #777;
+  background-color: #000;
+  z-index: 999;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.left > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+  color: white;
+}
+
+.listItem {
+  cursor: pointer;
+  transition: 150ms all;
+}
+.listItem:hover {
+  color: rgb(65, 60, 60);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #fff;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal {
+  height: 75px;
+  width: 75px;
+  background-color: #666;
+  position: absolute;
+  top: 2.5rem;
+  right: 2rem;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.modal>span{
+    cursor: pointer;
+}
+.modal>a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
